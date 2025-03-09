@@ -1,6 +1,16 @@
 # klever_bird
 A minimal, reproducible flutter app that cause shorebird patch ios to failed.
 
+## Version
+Flutter : 3.29.1
+Dart : 3.7.0
+Android SDK & Build-tool : 35
+JDK : 21.0.3
+Gradle : 8.9
+Xcode : 16B40
+CocoaPods : 1.16.2
+Shorebird : 1.6.22
+
 ## First Time Installation
 
 1. **Copy Environment File**
