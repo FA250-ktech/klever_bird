@@ -478,9 +478,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WYR44HY7ZK;
 				ENABLE_BITCODE = NO;
-				FLUTTER_APPLICATION_PATH = /Users/faris/Documents/GitHub/klever_bird;
 				FLUTTER_DISPLAY_NAME = "Kleverbird Profile";
-				FLUTTER_ROOT = /Users/faris/.puro/envs/stable/flutter;
 				GOOGLESERVICE_INFO_PLIST = "${PROJECT_DIR}/config/dev/GoogleService-Info.plist";
 				INFOPLIST_FILE = Runner/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "$(APP_DISPLAY_NAME)";
@@ -575,9 +573,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WYR44HY7ZK;
 				ENABLE_BITCODE = NO;
-				FLUTTER_APPLICATION_PATH = /Users/faris/Documents/GitHub/klever_bird;
 				FLUTTER_DISPLAY_NAME = "Kleverbird UAT Debug";
-				FLUTTER_ROOT = /Users/faris/.puro/envs/stable/flutter;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/AppAuth\"",
@@ -755,9 +751,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WYR44HY7ZK;
 				ENABLE_BITCODE = NO;
-				FLUTTER_APPLICATION_PATH = /Users/faris/Documents/GitHub/klever_bird;
 				FLUTTER_DISPLAY_NAME = "Kleverbird UAT";
-				FLUTTER_ROOT = /Users/faris/.puro/envs/stable/flutter;
 				GOOGLESERVICE_INFO_PLIST = "${PROJECT_DIR}/config/dev/GoogleService-Info.plist";
 				INFOPLIST_FILE = Runner/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "$(APP_DISPLAY_NAME)";
@@ -867,9 +861,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WYR44HY7ZK;
 				ENABLE_BITCODE = NO;
-				FLUTTER_APPLICATION_PATH = /Users/faris/Documents/GitHub/klever_bird;
 				FLUTTER_DISPLAY_NAME = "Kleverbird UAT Profile";
-				FLUTTER_ROOT = /Users/faris/.puro/envs/stable/flutter;
 				GOOGLESERVICE_INFO_PLIST = "${PROJECT_DIR}/config/dev/GoogleService-Info.plist";
 				INFOPLIST_FILE = Runner/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "$(APP_DISPLAY_NAME)";
@@ -984,9 +976,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WYR44HY7ZK;
 				ENABLE_BITCODE = NO;
-				FLUTTER_APPLICATION_PATH = /Users/faris/Documents/GitHub/klever_bird;
 				FLUTTER_DISPLAY_NAME = Kleverbird;
-				FLUTTER_ROOT = /Users/faris/.puro/envs/stable/flutter;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/AppAuth\"",
@@ -1164,9 +1154,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WYR44HY7ZK;
 				ENABLE_BITCODE = NO;
-				FLUTTER_APPLICATION_PATH = /Users/faris/Documents/GitHub/klever_bird;
 				FLUTTER_DISPLAY_NAME = Kleverbird;
-				FLUTTER_ROOT = /Users/faris/.puro/envs/stable/flutter;
 				GOOGLESERVICE_INFO_PLIST = "${PROJECT_DIR}/config/prod/GoogleService-Info.plist";
 				INFOPLIST_FILE = Runner/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "$(APP_DISPLAY_NAME)";
@@ -1276,9 +1264,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WYR44HY7ZK;
 				ENABLE_BITCODE = NO;
-				FLUTTER_APPLICATION_PATH = /Users/faris/Documents/GitHub/klever_bird;
 				FLUTTER_DISPLAY_NAME = "Kleverbird Profile";
-				FLUTTER_ROOT = /Users/faris/.puro/envs/stable/flutter;
 				GOOGLESERVICE_INFO_PLIST = "${PROJECT_DIR}/config/prod/GoogleService-Info.plist";
 				INFOPLIST_FILE = Runner/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "$(APP_DISPLAY_NAME)";
@@ -1512,9 +1498,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WYR44HY7ZK;
 				ENABLE_BITCODE = NO;
-				FLUTTER_APPLICATION_PATH = /Users/faris/Documents/GitHub/klever_bird;
 				FLUTTER_DISPLAY_NAME = "Kleverbird Debug";
-				FLUTTER_ROOT = /Users/faris/.puro/envs/stable/flutter;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/AppAuth\"",
@@ -1613,9 +1597,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WYR44HY7ZK;
 				ENABLE_BITCODE = NO;
-				FLUTTER_APPLICATION_PATH = /Users/faris/Documents/GitHub/klever_bird;
 				FLUTTER_DISPLAY_NAME = Kleverbird;
-				FLUTTER_ROOT = /Users/faris/.puro/envs/stable/flutter;
 				INFOPLIST_FILE = Runner/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "$(APP_DISPLAY_NAME)";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
