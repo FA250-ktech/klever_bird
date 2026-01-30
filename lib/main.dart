@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_flavor/flutter_flavor.dart';
 import 'package:kleverbird/go_router.dart';
 import 'package:kleverbird/locator.dart';
+import 'package:kleverbird/providers/shorebird_provider.dart';
 import 'package:kleverbird/providers/theme_provider.dart';
 import 'package:provider/provider.dart';
 
@@ -14,6 +15,10 @@ class KleverbirdApp extends StatelessWidget {
       providers: [
         ChangeNotifierProvider<ThemeProvider>(
           create: (context) => locator<ThemeProvider>(),
+          lazy: true,
+        ),
+        ChangeNotifierProvider<ShorebirdProvider>(
+          create: (context) => locator<ShorebirdProvider>(),
           lazy: true,
         ),
       ],

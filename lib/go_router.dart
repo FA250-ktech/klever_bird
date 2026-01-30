@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:kleverbird/helpers/constants/route_names.dart';
+import 'package:kleverbird/pages/force_update_page.dart';
 import 'package:kleverbird/pages/sample_page.dart';
 
 class RouterService {
@@ -12,6 +13,13 @@ class RouterService {
         path: samplePageRoute.routePath,
         pageBuilder: (context, state) {
           return const MaterialPage(child: SamplePage());
+        },
+      ),
+      GoRoute(
+        name: forceUpdatePageRoute.routeName,
+        path: forceUpdatePageRoute.routePath,
+        pageBuilder: (context, state) {
+          return const MaterialPage(child: ForceUpdatePage());
         },
       ),
     ],

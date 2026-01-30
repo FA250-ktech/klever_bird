@@ -4,6 +4,10 @@ final RouteInfo samplePageRoute = RouteInfo(
   routeName: 'sample',
   routePath: routes.samplePage,
 );
+final RouteInfo forceUpdatePageRoute = RouteInfo(
+  routeName: 'force_update',
+  routePath: routes.forceUpdatePage,
+);
 
 class RouteInfo {
   const RouteInfo({

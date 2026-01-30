@@ -2,57 +2,62 @@
 A minimal, reproducible flutter app that cause shorebird patch ios to failed.
 
 ## Version
-Flutter : 3.29.1
-Dart : 3.7.0
+Flutter : 3.38.7
+Dart : 3.10.7
 Android SDK & Build-tool : 35
 JDK : 21.0.3
 Gradle : 8.9
-Xcode : 16B40
+Xcode : 17A400
 CocoaPods : 1.16.2
-Shorebird : 1.6.22
+Shorebird : 1.6.78
 
 ## First Time Installation
 
-1. **Copy Environment File**
-    ```sh
-    cp .env.sample .env
-    ```
-
-2. **Install Flutter Dependencies**
+1. **Install Flutter Dependencies**
     ```sh
     flutter pub get
     ```
 
-3. **Install iOS Dependencies**
+2. **Install iOS Dependencies**
     ```sh
     cd ios
     pod install
     cd ..
     ```
 
-4. **Run the Application**
+3. **Run the Application**
     ```sh
-    flutter run --target=lib/flavor/flavor_prod.dart --flavor=prod --verbose -- --dart-define-from-file=.env
+    flutter run --target=lib/flavor/flavor_prod.dart --flavor=prod --verbose
     ```
 
-5. **Build for iOS**
+4. **Build**
     ```sh
-    flutter build ipa -t lib/flavor/flavor_prod.dart --flavor=prod --verbose -- --dart-define-from-file=.env
+    flutter build ipa -t lib/flavor/flavor_prod.dart --flavor=prod --verbose
+    ```
+    ```sh
+    flutter build appbundle --release --flavor=prod --target=lib/flavor/flavor_prod.dart --verbose
     ```
 
-6. **Initialize Shorebird**
+5. **Initialize Shorebird**
     ```sh
     shorebird init
     ```
+    
 
-7. **Release with Shorebird iOS**
+6. **Release with Shorebird**
     ```sh
-    shorebird release ios --flutter-version=3.29.1 --target=lib/flavor/flavor_prod.dart --flavor=prod --verbose -- --dart-define-from-file=.env
+    shorebird release ios --flutter-version=3.38.7 --target=lib/flavor/flavor_prod.dart --verbose
+    ```
+    ```sh
+    shorebird release android --artifact=apk --flutter-version=3.38.7 --target=lib/flavor/flavor_prod.dart  --verbose
     ```
 
-8. **Patch with Shorebird iOS**
+7. **Patch with Shorebird**
     ```sh
-    shorebird patch --platforms=ios --target=lib/flavor/flavor_prod.dart --flavor=prod --verbose -- --dart-define-from-file=.env
+    shorebird patch --platforms=ios --target=lib/flavor/flavor_prod.dart --verbose
+    ```
+    ```sh
+    shorebird patch --platforms=android --target=lib/flavor/flavor_prod.dart --verbose
     ```
 
 ### Optional: Rename Package
